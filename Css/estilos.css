@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #b80df1;
+    color: rgb(15, 16, 16);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenido ocupe toda la pantalla */
+}
+
+nav {
+    background-color: #b80df1;
+    color: rgb(8, 8, 8);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nombre {
+    font-size: 1.2em;
+}
+
+.Contenido {
+    background-color: #b80df1;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(red, green, blue);
+    flex: 1; /* Hace que el contenido ocupe el espacio disponible */
+}
+
+.Contenido h2 {
+    margin-bottom: 10px;
+}
+
+.Contenido ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Contenido ul li {
+    margin: 10px 0;
+}
+
+.Contenido a {
+    text-decoration: none;
+    color: rgb(11, 22, 224);
+    font-weight: bold;
+}
+
+.Contenido a:hover {
+    text-decoration: underline;
+}
+
+.pie {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    padding: 20px;
+    background-color: #e5dee7;
+    width: 100%;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-grow: 1; /* Hace que los enlaces ocupen el espacio disponible */
+    text-align: center;
+}
+
+.footer-nav a {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+}
+
+.footer img {
+    width: 50px; /* Reduce el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+    margin-right: 10px; /* Espacio entre la imagen y el contenido */
+    float: right;
+}
+
+html, body {
+    height: 100%;
+}
+
+.contenido {
+    flex: 1;
+}
